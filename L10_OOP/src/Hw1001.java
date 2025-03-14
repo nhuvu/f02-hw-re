@@ -6,8 +6,8 @@ public class Hw1001 {
     public static void main(String[] args) {
         Circle circle = new Circle(5);
         System.out.printf("Chu vi hình tròn bán kính %.0f là: %.2f \n",
-                circle.radius, circle.calPerimeter(circle.radius));
+                circle.getRadius(), circle.calPerimeter());
         System.out.printf("Diện tích hình tròn bán kính %.0f là: %.2f \n",
-                circle.radius, circle.calPerimeter(circle.radius));
+                circle.getRadius(), circle.calArea());
     }
 }

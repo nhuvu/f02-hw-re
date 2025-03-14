@@ -1,15 +1,23 @@
 public class Circle {
-    double radius;
+    private double radius;
 
-    Circle(double radius) {
+    public double getRadius() {
+        return radius;
+    }
+
+    public void setRadius(double radius) {
         this.radius = radius;
     }
 
-    double calPerimeter (double radius){
-        return radius * 2 * 3.14;
+    public Circle(double radius) {
+        this.radius = radius;
     }
 
-    double calArea (double radius){
-        return radius * radius * 3.14;
+    double calPerimeter (){
+        return this.radius * 2 * 3.14;
+    }
+
+    double calArea (){
+        return this.radius * this.radius * 3.14;
     }
 }
