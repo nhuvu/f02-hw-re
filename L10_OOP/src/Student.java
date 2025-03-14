@@ -73,6 +73,10 @@ public class Student {
         this.email = email;
     }
 
+    public Student (){
+
+    }
+
     String goToSchool(){
         return this + "\n -->đi học";
     }

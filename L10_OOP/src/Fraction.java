@@ -1,6 +1,22 @@
 public class Fraction {
-    int numerator;
-    int denominator;
+    private int numerator;
+    private int denominator;
+
+    public int getNumerator() {
+        return numerator;
+    }
+
+    public void setNumerator(int numerator) {
+        this.numerator = numerator;
+    }
+
+    public int getDenominator() {
+        return denominator;
+    }
+
+    public void setDenominator(int denominator) {
+        this.denominator = denominator;
+    }
 
     //Một constructor để khởi tạo một phân số với tử số và mẫu số cho trước.
     public Fraction(int numerator, int denominator) {
