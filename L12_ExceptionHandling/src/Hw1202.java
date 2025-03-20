@@ -10,7 +10,7 @@ public class Hw1202 {
         boolean isNumberic = false;
         while (!isNumberic){
             try{
-                System.out.println("Nhập 1 số nguyên:    ");
+                System.out.println("Nhập 1 số nguyên:");
                 int input = scanner.nextInt();
                 isNumberic = true;
                 scanner.nextLine();
@@ -20,6 +20,5 @@ public class Hw1202 {
                 scanner.nextLine();
             }
         }
-
     }
 }
