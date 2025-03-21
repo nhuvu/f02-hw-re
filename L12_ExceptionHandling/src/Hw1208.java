@@ -4,4 +4,7 @@
  * Sử dụng try-catch để xử lý giao dịch thất bại và hoàn tác giao dịch nếu cần thiết.
  * */
 public class Hw1208 {
+    public static void main(String[] args) {
+
+    }
 }

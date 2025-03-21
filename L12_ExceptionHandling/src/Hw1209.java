@@ -4,4 +4,7 @@
  * lệ tùy chỉnh khác (nếu có) khi danh sách sinh viên rỗng hoặc chỉ số sinh viên không hợp lệ.
  * */
 public class Hw1209 {
+    public static void main(String[] args) {
+
+    }
 }
