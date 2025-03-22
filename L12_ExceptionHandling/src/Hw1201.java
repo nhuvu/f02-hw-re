@@ -11,6 +11,7 @@ public class Hw1201 {
         int nominator = scanner.nextInt();
         System.out.print("Nhập số bị chia: ");
         int denominator = scanner.nextInt();
+        scanner.close();
         try{
             if(denominator == 0){
                 throw new ArithmeticException("Không thể chia cho 0");

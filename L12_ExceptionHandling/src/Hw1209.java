@@ -74,8 +74,8 @@ public class Hw1209 {
                     }
             }
         }
+        scanner.close();
     }
-
 
     public static Student[] addStudent(Student[] list, Student student) {
         Student[] result = Arrays.copyOf(list, list.length + 1);

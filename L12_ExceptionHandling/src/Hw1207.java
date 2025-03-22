@@ -15,5 +15,6 @@ public class Hw1207 {
         }catch (FileNotFoundException e){
             System.out.println(e.getMessage());
         }
+        scanner.close();
     }
 }

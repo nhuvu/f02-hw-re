@@ -16,7 +16,6 @@ public class Hw1204 {
 
         int index = getValidIndex(scanner, length);
         int value = getValidValue(scanner);
-
         array[index] = value;
         System.out.printf("Giá trị ở chỉ số %d trong mảng là %d%n", index, value);
     }
@@ -27,7 +26,6 @@ public class Hw1204 {
                 System.out.println("Nhập chỉ số mảng để gán giá trị:");
                 int index = scanner.nextInt();
                 scanner.nextLine();
-
                 if (index >= 0 && index < length) {
                     return index;
                 } else {
@@ -48,6 +46,7 @@ public class Hw1204 {
                 System.out.println("Nhập giá trị: ");
                 int value = scanner.nextInt();
                 scanner.nextLine();
+                scanner.close();
                 return value;
             } catch (InputMismatchException e) {
                 System.out.println("Sai format, vui lòng nhập số nguyên.");

@@ -19,6 +19,7 @@ public class Hw1208 {
         } finally {
             System.out.println("Giao dịch hoàn tất.");
         }
+        scanner.close();
     }
 
 }

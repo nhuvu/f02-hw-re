@@ -28,5 +28,6 @@ public class Hw1206 {
                 }
             }
         }
+        scanner.close();
     }
 }

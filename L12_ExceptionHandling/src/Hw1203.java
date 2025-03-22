@@ -9,11 +9,11 @@ public class Hw1203 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         try{
-            int sum = 0;
             System.out.print("Nhập số thứ 1: ");
             int num_1 = scanner.nextInt();
             System.out.print("Nhập số thứ 2: ");
             int num_2 = scanner.nextInt();
+            scanner.close();
             System.out.printf("Tổng của %d và %d: %d\n", num_1, num_2, num_1 + num_2);
         }catch (InputMismatchException exception){
             System.out.println("Nhập sai định dạng số");
