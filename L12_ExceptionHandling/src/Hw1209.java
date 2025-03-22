@@ -1,4 +1,3 @@
-import javax.swing.*;
 import java.util.Arrays;
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -74,7 +73,6 @@ public class Hw1209 {
                         break;
                     }
             }
-
         }
     }
 
