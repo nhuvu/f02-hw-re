@@ -48,7 +48,7 @@ public class Hw1209 {
                         students = addStudent(students, s);
                         break;
                     } catch (InputMismatchException e) {
-                        System.out.println(e.getMessage());
+                        System.out.println("Sai định dạng.");
                         break;
                     }
                 case 2:

@@ -59,6 +59,6 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Sinh viên: " + this.name + "; MSSV: " + this.studentNo + "; Tuổi: " + this.age + "; Điểm trung bình: " + this.averagePoint;
+        return "MSSV: " + this.studentNo + "- Họ tên: " + this.name + "- Tuổi: " + this.age + "- Điểm trung bình: " + this.averagePoint;
     }
 }
