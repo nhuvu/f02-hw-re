@@ -1,4 +1,3 @@
-import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.util.Scanner;
@@ -16,5 +15,6 @@ public class Hw1207 {
         }catch (FileNotFoundException e){
             System.out.println(e.getMessage());
         }
+        scanner.close();
     }
 }

@@ -1,0 +1,5 @@
+SN001,John Smith,18,9.2 
+SN002,Sue Bui,19,8.7 
+SN003,Martin Lawrence,19,7.0 
+SN004,Joe Tsai,19,6.7
+SN005,Sheldon Cooper,18,9.7 

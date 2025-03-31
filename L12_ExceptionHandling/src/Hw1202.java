@@ -14,6 +14,7 @@ public class Hw1202 {
                 int input = scanner.nextInt();
                 isNumberic = true;
                 scanner.nextLine();
+                scanner.close();
                 System.out.println("Số nguyên đã nhập: " + input);
             }catch (InputMismatchException exception){
                 System.out.println("Sai format, vui lòng nhập số nguyên");

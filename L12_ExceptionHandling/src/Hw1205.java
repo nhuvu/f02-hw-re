@@ -17,6 +17,7 @@ public class Hw1205 {
         }catch (InvalidAgeException e){
             System.out.println(e.getMessage());
         }
+        scanner.close();
     }
 }
 
