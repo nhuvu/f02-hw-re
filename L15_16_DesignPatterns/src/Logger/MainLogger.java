@@ -1,7 +1,9 @@
+package Logger;
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Main {
+public class MainLogger {
     public static void main(String[] args) {
         //1. Singleton Pattern
         Logger logger = FileLogger.getInstance();
@@ -11,7 +13,8 @@ public class Main {
             logger.log(e.getMessage());
         }
 
-        //2. Simple Factory Pattern
+
+        //2. Simple Factory Pattern & Proxy Patter
         Scanner scanner = new Scanner(System.in);
         while (true){
             try{
@@ -27,10 +30,12 @@ public class Main {
                 log("Unknown error");
             }
         }
+
+
     }
 
     static void log(String message){
-        LoggerFactory.getLogger("File").log(message);
-        LoggerFactory.getLogger("Console").log(message);
+        FactoryLogger.getLogger("File").log(message);
+        FactoryLogger.getLogger("Console").log(message);
     }
 }

@@ -1,4 +1,6 @@
-public class LoggerFactory {
+package Logger;
+
+public class FactoryLogger {
     public static Logger getLogger (String loggerType){
         Logger logger;
         switch (loggerType){
@@ -11,6 +13,6 @@ public class LoggerFactory {
             default:
                 throw new IllegalArgumentException(String.format("Unknown logger type: %s", loggerType));
         }
-        return logger;
+        return new ProxyLogger(logger);
     }
 }
