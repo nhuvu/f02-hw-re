@@ -14,7 +14,7 @@ public class MainLogger {
         }
 
 
-        //2. Simple Factory Pattern & Proxy Patter
+        //2. Simple Factory, Proxy, Decorator, Adapter Pattern Logger
         Scanner scanner = new Scanner(System.in);
         while (true){
             try{
@@ -30,8 +30,6 @@ public class MainLogger {
                 log("Unknown error");
             }
         }
-
-
     }
 
     static void log(String message){

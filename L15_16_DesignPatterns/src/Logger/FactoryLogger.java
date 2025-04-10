@@ -10,9 +10,12 @@ public class FactoryLogger {
             case "Console":
                 logger = ConsoleLogger.getInstance();
                 break;
+            case "Database":
+                logger = new DatabaseAdapter(DatabaseLogger.getInstance());
+                break;
             default:
                 throw new IllegalArgumentException(String.format("Unknown logger type: %s", loggerType));
         }
-        return new ProxyLogger(logger);
+        return new ProxyLogger(new DecoratorLogger(logger));
     }
 }
