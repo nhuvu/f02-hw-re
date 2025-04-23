@@ -1,0 +1,10 @@
+INSERT INTO demo_test.Employee (Emp_Id, Surname, Name, Birthday_Date, Emp_Date) VALUES (1, 'Tran', 'Van A', '1985-03-10', '2022-01-01 08:00:00');
+INSERT INTO demo_test.Employee (Emp_Id, Surname, Name, Birthday_Date, Emp_Date) VALUES (2, 'Nguyen', 'Thi B', '1990-07-25', '2022-02-15 09:30:00');
+INSERT INTO demo_test.Employee (Emp_Id, Surname, Name, Birthday_Date, Emp_Date) VALUES (3, 'Hoang', 'Van C', '1988-11-18', '2022-03-20 10:45:00');
+INSERT INTO demo_test.Employee (Emp_Id, Surname, Name, Birthday_Date, Emp_Date) VALUES (4, 'Le', 'Thi D', '1993-05-02', '2022-04-10 11:15:00');
+INSERT INTO demo_test.Employee (Emp_Id, Surname, Name, Birthday_Date, Emp_Date) VALUES (5, 'Do', 'Van E', '1980-09-14', '2022-05-05 12:30:00');
+INSERT INTO demo_test.Employee (Emp_Id, Surname, Name, Birthday_Date, Emp_Date) VALUES (6, 'Pham', 'Thi F', '1995-01-28', '2022-06-22 13:45:00');
+INSERT INTO demo_test.Employee (Emp_Id, Surname, Name, Birthday_Date, Emp_Date) VALUES (7, 'Truong', 'Van G', '1983-07-08', '2022-07-15 14:20:00');
+INSERT INTO demo_test.Employee (Emp_Id, Surname, Name, Birthday_Date, Emp_Date) VALUES (8, 'Nguyen', 'Thi H', '1998-12-03', '2022-08-08 15:00:00');
+INSERT INTO demo_test.Employee (Emp_Id, Surname, Name, Birthday_Date, Emp_Date) VALUES (9, 'Le', 'Van I', '1987-04-17', '2022-09-01 16:10:00');
+INSERT INTO demo_test.Employee (Emp_Id, Surname, Name, Birthday_Date, Emp_Date) VALUES (10, 'Pham', 'Thi K', '1992-08-22', '2022-10-05 17:25:00');

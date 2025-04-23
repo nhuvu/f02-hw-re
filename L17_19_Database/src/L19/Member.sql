@@ -1,0 +1,10 @@
+INSERT INTO demo_test.Member (CardNo, Surname, Name, Address, Birthday_Date, Gender, Phone_No) VALUES ('M0001', 'Nguyen', 'Van A', '123 Main Street', '1990-01-15', 'M', '0123456789');
+INSERT INTO demo_test.Member (CardNo, Surname, Name, Address, Birthday_Date, Gender, Phone_No) VALUES ('M0002', 'Tran', 'Thi B', '456 Oak Avenue', '1985-05-20', 'F', '0987654321');
+INSERT INTO demo_test.Member (CardNo, Surname, Name, Address, Birthday_Date, Gender, Phone_No) VALUES ('M0003', 'Le', 'Van C', '789 Elm Lane', '1992-09-10', 'M', '0112233445');
+INSERT INTO demo_test.Member (CardNo, Surname, Name, Address, Birthday_Date, Gender, Phone_No) VALUES ('M0004', 'Pham', 'Thi D', '987 Pine Road', '1988-03-25', 'F', '0765432109');
+INSERT INTO demo_test.Member (CardNo, Surname, Name, Address, Birthday_Date, Gender, Phone_No) VALUES ('M0005', 'Hoang', 'Van E', '654 Cedar Street', '1995-07-12', 'M', '0345678901');
+INSERT INTO demo_test.Member (CardNo, Surname, Name, Address, Birthday_Date, Gender, Phone_No) VALUES ('M0006', 'Do', 'Thi F', '321 Birch Blvd', '1983-11-05', 'F', '0556677889');
+INSERT INTO demo_test.Member (CardNo, Surname, Name, Address, Birthday_Date, Gender, Phone_No) VALUES ('M0007', 'Truong', 'Van G', '876 Maple Ave', '1998-02-18', 'M', '0234567890');
+INSERT INTO demo_test.Member (CardNo, Surname, Name, Address, Birthday_Date, Gender, Phone_No) VALUES ('M0008', 'Nguyen', 'Thi H', '234 Oak St', '1980-06-30', 'F', '0888777666');
+INSERT INTO demo_test.Member (CardNo, Surname, Name, Address, Birthday_Date, Gender, Phone_No) VALUES ('M0009', 'Le', 'Van I', '543 Elm Lane', '1993-12-08', 'M', '0999888777');
+INSERT INTO demo_test.Member (CardNo, Surname, Name, Address, Birthday_Date, Gender, Phone_No) VALUES ('M0010', 'Pham', 'Thi K', '765 Pine Road', '1987-04-22', 'F', '0444333222');

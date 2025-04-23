@@ -1,0 +1,10 @@
+INSERT INTO demo_test.Publisher (Pub_Id, Name, City, Phone_No) VALUES (1, 'ABC Publications', 'Hanoi', '0123456789');
+INSERT INTO demo_test.Publisher (Pub_Id, Name, City, Phone_No) VALUES (2, 'XYZ Publishing', 'Ho Chi Minh City', '0987654321');
+INSERT INTO demo_test.Publisher (Pub_Id, Name, City, Phone_No) VALUES (3, 'PQR Books', 'Da Nang', '0112233445');
+INSERT INTO demo_test.Publisher (Pub_Id, Name, City, Phone_No) VALUES (4, 'LMN Press', 'Hue', '0765432109');
+INSERT INTO demo_test.Publisher (Pub_Id, Name, City, Phone_No) VALUES (5, 'OPQ Printers', 'Can Tho', '0345678901');
+INSERT INTO demo_test.Publisher (Pub_Id, Name, City, Phone_No) VALUES (6, 'RST Publishers', 'Nha Trang', '0556677889');
+INSERT INTO demo_test.Publisher (Pub_Id, Name, City, Phone_No) VALUES (7, 'UVW Books', 'Vung Tau', '0234567890');
+INSERT INTO demo_test.Publisher (Pub_Id, Name, City, Phone_No) VALUES (8, 'HIJ Press', 'Phan Thiet', '0888777666');
+INSERT INTO demo_test.Publisher (Pub_Id, Name, City, Phone_No) VALUES (9, 'EFG Publishers', 'Bien Hoa', '0999888777');
+INSERT INTO demo_test.Publisher (Pub_Id, Name, City, Phone_No) VALUES (10, 'KLM Printing', 'Long Xuyen', '0444333222');
